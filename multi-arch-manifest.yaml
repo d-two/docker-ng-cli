@@ -1,15 +1,15 @@
 image: thedtwo/docker-test:latest
 manifests:
-  - image: thedtwo/docker-test:latest-amd64
+  - image: thedtwo/docker-test:latest
     platform:
       architecture: amd64
       os: linux
-  - image: thedtwo/docker-test:latest-arm64v8
+  - image: thedtwo/docker-test:latest
     platform:
       architecture: arm64
       os: linux
       variant: v8
-  - image: thedtwo/docker-test:latest-arm32v7
+  - image: thedtwo/docker-test:latest
     platform:
       architecture: arm
       os: linux
